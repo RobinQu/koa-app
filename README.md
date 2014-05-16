@@ -1,5 +1,8 @@
 # koa-app
 
+An opinionated selection of koa middlewares/plugins to boost the project scaffolding.
+
+
 忍受不了每次新建一个koa应用都要不断的去`npm install`各种`middlewares`，那就试试这个吧。
 
 我不做框架，只做大自然的搬运工！
