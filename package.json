@@ -15,7 +15,8 @@
     "koa-methodoverride": "~0.3.1",
     "koa-sess": "~0.3.1",
     "koa-static": "~1.4.5",
-    "thunkify": "~2.1.1"
+    "thunkify": "~2.1.1",
+    "debug": "^0.8.1"
   },
   "devDependencies": {},
   "scripts": {
