@@ -40,10 +40,29 @@ app.configure({
   
   //if we should generate random `app.keys` for you
   generateKey: true
-
+  
+  
 });
 
-app.listen(process.env.PORT || 8888);
+app.listen({
+  // bind port
+  port: 8080,
+  
+  // using SSL or not
+  secured: true,
+  
+  // should provide cert and private key content
+  certs: {
+    key: "xxxx",
+    cert: xxx
+  },
+  
+  // force to drop all socket connections on `server.close()`
+  autoDrop: true
+  
+}, function() {
+  console.log("app is up and running");
+});
 
 ```
 
